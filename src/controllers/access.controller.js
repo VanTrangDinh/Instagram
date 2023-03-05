@@ -1,22 +1,20 @@
-'use strict';
+// 'use strict';
 
-class AccessController {
-    signup = async (req, res, next) => {
-        try {
-            console.log(`[P]:::signUp:::`, req.body);
-            /* 
-            200: ok,
-            201: created
-            */
+// const AccessService = require('../services/access.service');
+// class AccessController {
+//     signup = async (req, res, next) => {
+//         try {
+//             console.log(`[P]:::signUp:::`, req.body);
+//             /* 
+//             200: ok,
+//             201: created
+//             */
 
-            return res.status(201).json({
-                code: 201,
-                metadata: { useId: 1 },
-            });
-        } catch (error) {
-            console.error(error);
-        }
-    };
-}
+//             return res.status(201).json(await AccessService.signUp(req.body));
+//         } catch (error) {
+//             console.error(error);
+//         }
+//     };
+// }
 
-module.exports = new AccessController();
+// module.exports = new AccessController();
