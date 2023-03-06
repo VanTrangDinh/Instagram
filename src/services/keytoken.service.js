@@ -1,21 +1,20 @@
-// 'use strict'
+'use strict'
+const keyTokenModel = require('../models/keytoken.model')
+class KeyTokenService {
+    static createKeyToken = async ({userId, privateKey, publicKey}) => {
+        try {
+            const tokens = await keyTokenModel.create({
+                user: userId,
+                publicKey,
+                privateKey
+            })
 
-// const keyTokenModel = require('../models/keytoken.model')
-// class KeyTokenService {
+            return tokens
+    
+        } catch (error) {
+            return 
+        }
+    }
+}
 
-//     static createKeyToken = async ({userId, publicKey, privateKey}) => {
-//         try {
-//             const tokens = await keyTokenModel.create({
-//                 user: userId,
-//                 publicKey,
-//                 privateKey
-//             })
-
-//             return tokens
-//         } catch (error) {
-//             return error
-//         }
-//     }
-// }
-
-// module.exports = KeyTokenService
+module.exports = KeyTokenService

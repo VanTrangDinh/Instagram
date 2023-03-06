@@ -6,6 +6,8 @@ require('dotenv').config();
 const createError = require('http-errors')
 const logEvents = require('./helpers/log.events');
 const {v4: uuid} = require('uuid')
+const bodyparser = require('body-parser');
+
 const app = express();
 
 //init middleware

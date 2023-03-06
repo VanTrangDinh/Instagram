@@ -21,3 +21,5 @@
 05-03-2023	09:10:15----IdError----c4fcbd71-f738-43b4-88d0-762219a6ce24----/v1/api/user/signup----undefined----Not found
 05-03-2023	13:10:15----IdError----2e76ec35-e7db-457f-adc5-f5a9b3c945bb----/v1/api/user/signup----undefined----Not found
 05-03-2023	14:10:15----IdError----396ded7a-dd7c-4a18-87f5-e04d06d28bdf----/v1/api/user/signup----undefined----Not found
+06-03-2023	59:36:11----IdError----7da8582e-be63-4dce-850d-798b00f6d7d7----/v1/api//user/signup----undefined----Expected double-quoted property name in JSON at position 111
+06-03-2023	57:43:11----IdError----c1714e43-82e4-4e1f-a889-6bc7f4af9364----/v1/api//user/signup----undefined----Expected ',' or '}' after property value in JSON at position 34

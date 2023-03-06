@@ -4,8 +4,10 @@ const express = require('express');
 const accessController = require('../../controllers/access.controller');
 const router = express.Router();
 
-//singup user
+//singup user and upload avatar???
+router.post('/user/signup', accessController.signUp)
 
-router.post('/user/signup', accessController.signup)
+//login user
+router.post('/user/login',)
 
 module.exports = router;
