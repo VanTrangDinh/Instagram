@@ -23,3 +23,53 @@
 05-03-2023	14:10:15----IdError----396ded7a-dd7c-4a18-87f5-e04d06d28bdf----/v1/api/user/signup----undefined----Not found
 06-03-2023	59:36:11----IdError----7da8582e-be63-4dce-850d-798b00f6d7d7----/v1/api//user/signup----undefined----Expected double-quoted property name in JSON at position 111
 06-03-2023	57:43:11----IdError----c1714e43-82e4-4e1f-a889-6bc7f4af9364----/v1/api//user/signup----undefined----Expected ',' or '}' after property value in JSON at position 34
+07-03-2023	33:57:11----IdError----336fbd15-fd30-4107-8a0a-f640e5c3cdcc----/v1/api//user/signup----undefined----"name" is not allowed
+07-03-2023	01:58:11----IdError----7376b72d-e062-4463-941e-9f707d2550bb----/v1/api//user/signup----undefined----"username" is not allowed
+07-03-2023	48:58:11----IdError----974df67e-4130-4d01-9ec9-619997bb2460----/v1/api//user/signup----undefined----"name" is not allowed
+07-03-2023	24:02:12----IdError----04c10509-c2a4-4106-b135-6ce71120368d----/v1/api//user/signup----undefined----Joi.string(...).require is not a function
+07-03-2023	28:06:12----IdError----5a6a7f89-6683-49ac-97f2-b11ef14125a9----/v1/api//user/signup----undefined----"email" with value "van123@gmail..com" fails to match the required pattern: /gmail.com/
+08-03-2023	26:21:23----IdError----b386c998-8f96-4157-b70e-f514b6ea9fbb----/v1/api//user/signup----undefined----Username already registered
+08-03-2023	59:25:23----IdError----daa05ab5-abbd-4afc-a456-70985f3a3e74----/v1/api//user/signup----undefined----Username already registered
+08-03-2023	53:26:23----IdError----a8e53091-b365-471c-bf45-2fed83ca9e72----/v1/api//user/signuppp----undefined----Not found
+08-03-2023	41:31:23----IdError----6b811f1b-fb74-428a-acd1-238d7191e6c3----/v1/api//user/signup----undefined----Username already registered
+08-03-2023	29:37:23----IdError----d63ef638-9110-4cb0-8170-622446b3f5f7----/v1/api//user/signup----undefined----Username already registered
+08-03-2023	28:39:23----IdError----09917eee-1d3e-4324-b6ae-9f0194124b52----/v1/api//user/signup----undefined----Username already registered
+08-03-2023	05:40:23----IdError----e7c80f5c-577c-4154-baa0-f04a9e5ae0a3----/v1/api//user/signup----undefined----Username already registered
+08-03-2023	18:40:23----IdError----4a32c180-d4e9-4419-9311-45d32ada5370----/v1/api//user/signupp----undefined----Not found
+08-03-2023	41:40:23----IdError----c5b400d4-98cb-4971-8337-4d3025808845----/v1/api//user/signup----undefined----a is not defined
+08-03-2023	26:42:23----IdError----4eb2fc2a-ce36-460c-b578-2ebbe5ae9357----/v1/api//user/signup----POST----Username already registered
+08-03-2023	28:57:23----IdError----a3ca7342-40a0-45bf-9d78-a6d6dbb892df----/v1/api//user/signup----POST----Username already registered
+09-03-2023	07:17:00----IdError----888c5a23-b400-4174-ab34-475cb5034829----/v1/api//user/signup----POST----Bad request error
+09-03-2023	50:20:00----IdError----3866a00c-eebf-4d5f-a991-a648f5cd4855----/v1/api//user/signup----POST----Bad request error
+09-03-2023	53:21:00----IdError----f0682aee-cbd1-41b9-933b-7cecca4a6baa----/v1/api//user/signup----POST----ValidationError: "email" with value "van123@gmail....com" fails to match the required pattern: /gmail.com/
+09-03-2023	38:00:01----IdError----6d4f4fc9-5dc7-40ed-ac33-d24f6a2b5fc3----/v1/api//user/signup----POST----ValidationError: "email" with value "van123@gmail....com" fails to match the required pattern: /gmail.com/
+09-03-2023	40:04:01----IdError----759c620f-f2a1-4810-85dd-f4344bc74e91----/v1/api//user/signup----POST----Username already registered
+09-03-2023	26:52:01----IdError----635f1241-e5a0-4318-b4e2-eb7ed737a9fa----/v1/api//user/signup----POST----Username already registered
+09-03-2023	24:54:01----IdError----a759870b-975c-45c6-9c64-6aee634907b6----/v1/api/user/signup----GET----Not found
+09-03-2023	25:54:01----IdError----5ed2df94-c541-4bf8-8960-280da16dbfee----/favicon.ico----GET----Not found
+09-03-2023	11:55:01----IdError----7866b8f9-ebc7-4fbc-b785-6219e820cb1c----/v1/api//user/signup----POST----Username already registered
+09-03-2023	39:55:01----IdError----3dbbd4fe-2a03-43dd-8013-22c4d88cb478----/v1/api//user/signup----POST----ValidationError: "name" is required
+09-03-2023	40:55:01----IdError----d67b2200-33e6-4506-8667-64bf8bc1a45b----/v1/api//user/signup----POST----ValidationError: "name" is required
+09-03-2023	35:56:01----IdError----84840e4a-00fc-444a-9b85-f05f98a88ec9----/v1/api/user/signup----GET----Not found
+09-03-2023	45:56:01----IdError----9301b2cd-7554-4c6c-98d3-6fc4b6bf91a7----/v1/api/user/signup----GET----Not found
+09-03-2023	09:58:01----IdError----37e1a9ea-ea4f-404d-b680-84e1a090d7b7----/v1/api/user/signup?method=post----GET----Not found
+09-03-2023	59:59:01----IdError----a93aaa5b-eb4e-4f30-a7bf-2de7fa05044f----/v1/api/user/signup?method=post&name=trang&username=VanTrang123&email=Van123@gmail.com&password=abc123----GET----Not found
+09-03-2023	14:00:02----IdError----401db4c1-9c3f-4740-9d61-7dd73d3796a2----/v1/api/user/signup?methods=post&name=trang&username=VanTrang123&email=Van123@gmail.com&password=abc123----GET----Not found
+09-03-2023	10:02:02----IdError----83b20b5b-e1ed-482e-b060-2fe6bf0b38b5----/v1/api//user/signup----POST----Username already registered
+09-03-2023	02:35:02----IdError----1510586e-ba1f-4eab-9b3e-509db6f33778----/v1/api//user/signup----POST----res is not defined
+09-03-2023	48:35:02----IdError----7893a90a-b087-4a24-b707-cf1e8783b1c5----/v1/api//user/signup----POST----res is not defined
+09-03-2023	21:36:02----IdError----757d7a8d-45f1-4af8-88e3-633d2b79710e----/v1/api//user/signup----POST----E11000 duplicate key error collection: IGdev.Users index: email_1 dup key: { email: "Van12decfdcdd@gmail.com" }
+09-03-2023	21:36:02----IdError----1eca2214-f88c-4c67-bd98-e74f310c28c8----/v1/api//user/signup----POST----res is not defined
+09-03-2023	38:39:02----IdError----0f3d5358-80db-47bd-aea0-e275225c83b7----/v1/api//user/signup----POST----Username already registered
+09-03-2023	39:09:23----IdError----fb9804a0-0ac6-4ddd-a100-c9b202e8c67b----/v1/api//user/signup----POST----Username already registered
+10-03-2023	50:03:00----IdError----ce1241be-3c6b-49a0-8180-6f7ff3824c69----/v1/api//user/signup----POST----Username already registered
+10-03-2023	58:05:01----IdError----eab216db-f70a-40d7-befd-701da748e12e----/v1/api//user/signup----POST----ValidationError: "name" is required
+10-03-2023	21:06:01----IdError----f6dadede-58d7-4aa8-a0aa-226f11391c6d----/v1/api//user/signup----POST----ValidationError: "name" is required
+10-03-2023	23:06:01----IdError----caa8d302-4fa9-4830-a8c0-6e8ccbecf6a3----/v1/api//user/signup----POST----ValidationError: "name" is required
+10-03-2023	39:07:01----IdError----686cc10a-0a82-4700-9f02-12996da9eef6----/v1/api//user/signup----POST----ValidationError: "name" is required
+10-03-2023	00:09:01----IdError----da405acf-bce8-42cb-ac4b-da3aaafea6bd----/v1/api//user/signup----POST----ValidationError: "name" is required
+10-03-2023	14:09:01----IdError----7a67e270-3862-4f0f-8d8e-d44fe67d7171----/v1/api//user/signup----POST----Username already registered
+10-03-2023	34:10:01----IdError----65a7dccb-4717-4748-9c1c-3ad0899d10ad----/v1/api//user/signup----POST----Username already registered
+10-03-2023	40:10:01----IdError----4bf9fb0d-9e1e-4b08-96c5-597436472127----/v1/api//user/signup----POST----Email already registered
+10-03-2023	03:15:01----IdError----018ef069-7705-46bc-a7a7-e2cbe9201814----/v1/api//user/signup----POST----ValidationError: "username" length must be at least 3 characters long
+10-03-2023	27:16:01----IdError----a4e46894-45db-4e94-93fb-549b9431606d----/v1/api//user/signup----POST----E11000 duplicate key error collection: IGdev.Users index: email_1 dup key: { email: "vandhhfd@gmail.com" }
