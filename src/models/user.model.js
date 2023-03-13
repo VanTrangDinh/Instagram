@@ -80,7 +80,7 @@ const userSchema = new Schema(
 
 userSchema.statics.isEmailTaken = async function (email, excludeUserId) {
     const user = await this.findOne({ email, _id: { $ne: excludeUserId } }).lean();
-    return !!user;
+    return !!user; //if user is true => return true
 };
 
 userSchema.statics.isUsernameTaken = async function (username, excludeUserId) {
@@ -110,4 +110,5 @@ userSchema.pre('save', async function (next) {
 });
 
 //Export the model
+
 module.exports = model(DOCUMENT_NAME, userSchema);

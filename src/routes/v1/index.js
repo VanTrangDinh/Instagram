@@ -1,39 +1,14 @@
-'use strict'
+const express = require('express')
+const router = express.Router()
 
-const express = require('express');
-const authRoute = require('./auth.route');
-const userRoute = require('./user.route');
-const docsRoute = require('./docs.route');
-const router = express.Router();
+//GET v1/status
 
-const defaultRoutes = [
-    {
-        path: '/auth',
-        route: authRoute,
-    },
-    {
-        path: '/users',
-        route: userRoute,
-    },
-];
+router.get('/status', (req, res) => res.send('OK'))
 
-const devRoutes = [
-    // routes available only in development mode
-    {
-        path: '/docs',
-        route: docsRoute,
-    },
-];
 
-defaultRoutes.forEach((route) => {
-    router.use(route.path, route.route);
-  });
-  
-  /* istanbul ignore next */
-  if (config.env === 'development') {
-    devRoutes.forEach((route) => {
-      router.use(route.path, route.route);
-    });
-  }
+
+router.use('/user', require('./user.route'))
+router.use('/auth', require('./auth.route.js'))
+
 
 module.exports = router

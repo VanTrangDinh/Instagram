@@ -1,19 +1,27 @@
 'use strict';
 const userModel = require('../models/user.model');
-const { BadRequestError } = require('../core/error.response');
+const httpStatus = require('http-status');
+const ApiError = require('../utils/api.error');
 
-class UserService {
-    static createUser = async ({ name, email, username, password }) => {
-        if (await userModel.isEmailTaken(email)) {
-            throw new BadRequestError('Email already registered');
-        }
+const createUser = async (userBody) => {
+    if (await userModel.isEmailTaken(userBody.email)) {
+        throw new ApiError(httpStatus.BAD_REQUEST, 'Email already registered');
+    }
 
-        if (await userModel.isUsernameTaken(username)) {
-            throw new BadRequestError('Username already registered');
-        }
+    if (await userModel.isUsernameTaken(userBody.username)) {
+        throw new ApiError(httpStatus.BAD_REQUEST, 'Username already registered');
+    }
 
-        return userModel.create({ name, email, username, password });
-    };
+    return userModel.create(userBody);
+};
+
+
+//...
+
+const getUserByEmail = async (email) => {
+    return userModel.findOne({email})
 }
-
-module.exports = UserService;
+module.exports =  {
+    createUser,
+    getUserByEmail
+ }

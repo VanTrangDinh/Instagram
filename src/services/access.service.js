@@ -41,6 +41,7 @@ class AccessService {
                 userId: newUser._id,
                 publicKey,
                 privateKey,
+                
             });
 
             if (!keyStore) {

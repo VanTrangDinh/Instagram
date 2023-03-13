@@ -1,5 +1,5 @@
 'use strict';
-const {tokenTypes} = require('../configs/config.token')
+const { tokenTypes } = require('../configs/config.token');
 const { Schema, model, Types } = require('mongoose'); // Erase if already required
 // Declare the Schema of the Mongo model
 const DOCUMENT_NAME = 'Token';
@@ -12,7 +12,7 @@ var tokenSchema = new Schema(
             index: true,
         },
         user: {
-            type: SchemaTypes.ObjectId,
+            type: Schema.Types.ObjectId,
             ref: 'User',
             required: true,
         },
@@ -27,7 +27,7 @@ var tokenSchema = new Schema(
         },
         blacklisted: {
             type: Boolean,
-            default: false,
+            default: false
         },
     },
     {
@@ -37,4 +37,5 @@ var tokenSchema = new Schema(
 );
 
 //Export the model
+
 module.exports = model(DOCUMENT_NAME, tokenSchema);

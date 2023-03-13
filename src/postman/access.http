@@ -4,10 +4,29 @@ POST {{url_dev}}/user/signup
 Content-Type: application/json
 
 {
-    
         "name": "Trang",
-        "username": "VTanhds",
-        "email": "Vandhhfd@gmail.com",
-        "password": "abc123"
-    
+        "username": "VTaaaneba",
+        "email": "Vantrn@gmail.com",
+        "password": "abc123"   
+}
+
+
+####
+
+POST {{url_dev}}/user
+Content-Type: application/json
+
+{
+        "name": "Trang",
+        "username": "VTafaddddaneba",
+        "email": "Vantddarnfg@gmail.com",
+        "password": "abc123123333333"   
+}
+#####
+POST {{url_dev}}/auth/login
+Content-Type: application/json
+
+{
+        "email": "Vantddarnfg@gmail.com",
+        "password": "abc123123333333"   
 }

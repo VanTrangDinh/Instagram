@@ -1,18 +1,13 @@
 'use strict';
-const UserService = require('../services/user.service');
-const { userValidate } = require('../helpers/validation');
-const { BadRequestError } = require('../core/error.response');
-class UserController {
-    createUser = async (req, res, next) => {
-        console.log(`[P]:::signUp:::`, req.body);
-        const { error } = userValidate(req.body);
-        console.log(`error:::`, error);
-        if (error) {
-            throw new BadRequestError(error);
-        }
+const { userService } = require('../services');
+const httpStatus = require('http-status');
+const catchAsync = require('../utils/catchAsync');
 
-        return res.status(201).json(await UserService.createUser(req.body));
-    };
-}
+const createUser = catchAsync(async (req, res) => {
+    const user = await userService.createUser(req.body);
+    res.status(httpStatus.CREATED).send(user);
+});
 
-module.exports = new UserController();
+module.exports = {
+    createUser,
+};

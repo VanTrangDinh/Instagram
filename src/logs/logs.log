@@ -73,3 +73,61 @@
 10-03-2023	40:10:01----IdError----4bf9fb0d-9e1e-4b08-96c5-597436472127----/v1/api//user/signup----POST----Email already registered
 10-03-2023	03:15:01----IdError----018ef069-7705-46bc-a7a7-e2cbe9201814----/v1/api//user/signup----POST----ValidationError: "username" length must be at least 3 characters long
 10-03-2023	27:16:01----IdError----a4e46894-45db-4e94-93fb-549b9431606d----/v1/api//user/signup----POST----E11000 duplicate key error collection: IGdev.Users index: email_1 dup key: { email: "vandhhfd@gmail.com" }
+10-03-2023	54:45:09----IdError----11c9561b-07f1-471b-a4b2-7f78bb38947f----/v1/api//user/signup----POST----fn is not a function
+10-03-2023	11:48:09----IdError----a2b8a0b9-569e-4654-bafd-7c19cbdcf872----/v1/api//user/signup----POST----fn is not a function
+10-03-2023	46:53:09----IdError----8045f362-bc1f-4233-a808-d8aa552312f3----/v1/api//user/signup----POST----fn is not a function
+10-03-2023	17:58:09----IdError----927169ec-a4bf-4a26-b7fb-7757809f168c----/v1/api//user/signup----POST----fn is not a function
+10-03-2023	43:59:09----IdError----b224c459-e3ee-4420-9fb1-f553ee036a7b----/v1/api//user/signup----POST----fn is not a function
+10-03-2023	27:00:10----IdError----691d307a-d36d-4b0f-8d16-e83a5295a2e7----/v1/api//user/signup----POST----fn is not a function
+10-03-2023	39:00:10----IdError----60105c07-1c62-4447-903c-f2a96ca87b41----/v1/api//user/signup----POST----fn is not a function
+10-03-2023	47:05:10----IdError----8265d18e-f73c-41df-9a37-3287276b40ed----/v1/api//user/signup----POST----fn is not a function
+10-03-2023	07:09:10----IdError----54135773-ae20-4833-b523-596868bcb289----/v1/api//user/signup----POST----Email already registered
+10-03-2023	25:55:10----IdError----ee3be2f4-df45-4b9a-a656-73a1df80a26e----/v1/api//user/signup----POST----Email already registered
+10-03-2023	28:05:11----IdError----0a3257b8-f603-47e0-9109-9fc5781d0d9e----/v1/api//user/signup----POST----Email already registered
+10-03-2023	04:41:11----IdError----9e7d8421-00dd-4d06-9f0c-03b73dc282cb----/v1/api//user/signup----POST----Email already registered
+10-03-2023	38:20:12----IdError----69efff8a-0da1-4d5a-a8e4-c526f653b4cb----/v1/api//user/signup----POST----Username already registered
+10-03-2023	38:20:12----IdError----50ce62e8-6414-4d63-8ead-8884940be986----/v1/api//user/signup----POST----Username already registered
+10-03-2023	47:20:12----IdError----bfeff5d9-9d17-4fbf-bcfc-9ed1ab07b6dd----/v1/api//user/signup----POST----Cannot access 'tokens' before initialization
+10-03-2023	22:22:12----IdError----547a0822-d2ac-4eb5-a3b1-45e842d6b454----/v1/api//user/signup----POST----Email already registered
+11-03-2023	36:35:18----IdError----b62c14bf-712e-416b-af86-08c8eb5aa93a----/v1/api//user/signup----POST----Email already registered
+11-03-2023	46:35:18----IdError----c6d4e025-7418-4616-8ebb-0eb87c6677c0----/v1/api//user/signup----POST----Username already registered
+11-03-2023	53:35:18----IdError----74c853d9-0f9f-4049-ac47-3bf7dc7b991a----/v1/api//user/signup----POST----User validation failed: username: Username must be of minimum 6 characters
+11-03-2023	16:56:18----IdError----855de9e8-d94e-4d18-8a9e-c143186d6501----/v1/api/user/signup----POST----ValidationError: "name" is required
+11-03-2023	19:57:18----IdError----d89377d2-0aec-4daa-af44-eadcd035e488----/v1/api/user/signup?name=Trang&username=betrsng&email=trang@gmail.com&password=123234----POST----ValidationError: "name" is required
+11-03-2023	29:57:18----IdError----603232e0-476d-41bc-bd18-8613a4da8e8b----/v1/api/user/signup?name=Trang&username=betrsng&email=trang@gmail.com&password=123234----POST----ValidationError: "name" is required
+11-03-2023	58:57:18----IdError----23baed93-fd03-4882-947c-a73472236527----/v1/api/user/signup?name=Trangasf&username=betrsng&email=trang@gmail.com&password=123234----POST----ValidationError: "name" is required
+11-03-2023	38:59:18----IdError----c0835288-7d3a-44ca-b4d0-d9d95234f7c1----/v1/api/user/signup----POST----User validation failed: password: Password must be of minimum 6 characters
+11-03-2023	41:45:19----IdError----5d47a6ff-46dc-4f4b-8498-9fefbe9efebd----/v1/api//users----POST----Not found
+12-03-2023	31:06:22----IdError----32f8c2c0-929b-4ddf-84c3-9f1b52a6ecb0----/v1/api//user----POST----pick is not a function
+12-03-2023	14:08:22----IdError----d860208e-4044-4931-944a-be8dde6540cd----/v1/api//user----POST----Bad request error
+12-03-2023	11:17:22----IdError----490e96f7-9790-449c-8d3e-9963d6dc8c2f----/v1/api/user----POST----Bad request error
+12-03-2023	02:20:22----IdError----783c49cd-1151-4c1d-bbb5-2e1171829cfa----/v1/api//user----POST----neu gap loi tai day
+12-03-2023	31:25:22----IdError----a605a9d4-b473-44ff-8470-9e92669dfd72----/v1/api/user----POST----400
+12-03-2023	50:25:22----IdError----72f9180f-2ed3-4f7e-8791-5db18361d082----/v1/api//user----POST----400
+12-03-2023	47:29:22----IdError----db156866-ea77-419e-a872-332dd3dd5998----/v1/api/user----POST----password must be at least 8 characters
+12-03-2023	01:30:22----IdError----cfceda0a-7986-44ea-b5b3-b0868db706f9----/v1/api/user----POST----password must be at least 8 characters
+12-03-2023	13:30:22----IdError----cf847bc6-e5da-434f-ac9d-bed2de290b2d----/v1/api/user----POST----password must be at least 8 characters
+12-03-2023	23:30:22----IdError----fb9ea6fd-9275-4ae1-b357-115cf59e1cb8----/v1/api//user----POST----password must be at least 8 characters
+12-03-2023	46:31:22----IdError----7bd79ef9-bf7f-4000-914f-a754bd75d8ee----/v1/api/user----POST----password must be at least 8 characters
+12-03-2023	00:32:22----IdError----35302dba-8d25-4b50-b421-3cd5a9d615fe----/v1/api//user----POST----userService is not defined
+12-03-2023	09:33:22----IdError----9ccab784-f9a9-462f-857c-30f260ed75fd----/v1/api//user----POST----httpStatus is not defined
+12-03-2023	59:34:22----IdError----b6d66505-27fb-4e2b-95cd-a5882085205a----/v1/api//user----POST----Email already registered
+12-03-2023	13:35:22----IdError----47f30bd5-b20c-43c5-a2b4-0c8cdfbb4f68----/v1/api//user----POST----Username already registered
+12-03-2023	58:42:22----IdError----1ff2ea60-ffee-46f4-a295-8ebd9b023c79----/v1/api//user----POST----email is not defined
+12-03-2023	56:43:22----IdError----ad3be8bb-5f22-470a-9fc4-a0cab6744a86----/v1/api//user----POST----Email already registered
+12-03-2023	51:48:22----IdError----0a6a4420-03ba-49b7-be58-19ccfd708f0e----/v1/api/user----POST----password must be at least 8 characters
+12-03-2023	57:48:22----IdError----ae89eef8-b698-43f7-a7fa-5a04eccc4db7----/v1/api/user----POST----password must be at least 8 characters
+12-03-2023	59:48:22----IdError----72fe43ba-1a64-4169-b914-ee64d1375413----/v1/api/user----POST----password must be at least 8 characters
+13-03-2023	06:11:18----IdError----afeec0c5-0313-4052-9f01-7bd8ea0f3e06----/v1/api//user----POST----Email already registered
+13-03-2023	27:16:18----IdError----5f00250a-53f7-4d37-a442-178e6d4c4571----/v1/api/user----POST----Email already registered
+13-03-2023	36:16:18----IdError----080794ad-9360-4690-a0d9-a28c99d6021e----/v1/api/user----POST----Email already registered
+13-03-2023	44:16:18----IdError----a4c5d5f9-92fd-412c-9820-05e06d80ff3d----/v1/api/user----POST----Email already registered
+13-03-2023	57:16:18----IdError----e5f910b0-0ccf-4224-a27c-8552908b74b1----/v1/api/user----POST----Email already registered
+13-03-2023	20:17:18----IdError----eb223d6d-08fc-418e-9ad1-6b6308b2877a----/v1/api/user----POST----Email already registered
+13-03-2023	01:42:18----IdError----bb5026bd-fffd-475c-8971-8cbf1753663a----/v1/api//user----POST----Cannot read properties of undefined (reading 'createUser')
+13-03-2023	08:43:18----IdError----4e7894ca-7967-4ea8-89c4-9cef7a71e315----/v1/api//user----POST----Cannot read properties of undefined (reading 'createUser')
+13-03-2023	16:45:18----IdError----3b6c20ff-600c-43c6-8164-a700bfd59e32----/v1/api//user----POST----Cannot read properties of undefined (reading 'createUser')
+13-03-2023	44:35:22----IdError----76420833-5fed-405f-ad7f-bf48cd029d15----/v1/api//user----POST----Email already registered
+13-03-2023	55:16:23----IdError----ee6699fb-915a-41df-a096-6d6ac6426654----/v1/api//auth/login----POST----data and hash arguments required
+13-03-2023	33:20:23----IdError----43051eca-8c2c-4c0d-86aa-92fd5da0d611----/v1/api//auth/login----POST----data and hash arguments required
+13-03-2023	34:24:23----IdError----e6dd7ae7-e1ca-42d8-ad6c-e8913adeb70f----/v1/api//auth/login----POST----data and hash arguments required
